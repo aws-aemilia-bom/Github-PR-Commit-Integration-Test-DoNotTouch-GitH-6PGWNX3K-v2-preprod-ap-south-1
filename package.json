@@ -1,0 +1,10 @@
+{
+  "name": "static-html-page",
+  "version": "1.0.0",
+  "description": "Simple static html page for testing Amplify static site deployments",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"This is a static html page - no build!\""
+  },
+  "license": "ISC"
+}

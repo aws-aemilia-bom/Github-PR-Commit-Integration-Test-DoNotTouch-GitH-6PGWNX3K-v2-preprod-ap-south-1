@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - echo $PATH
+        - nvm use 20
+        - echo $PATH
+        - yarn version
+        - which yarn
+        - npm run build
+        - which node
+        - amplify --version
+        - which amplify
+  artifacts:
+    files:
+        - index.html
+    baseDirectory: src
